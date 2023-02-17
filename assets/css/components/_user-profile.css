@@ -1,0 +1,32 @@
+.userProfile {
+    block-size: 2rem;
+    /* border: 1px solid red; */
+    background-color: var(--gray60);
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    border-radius: 1rem;
+    padding: .125rem;
+}
+
+.userProfile img {
+    inline-size: 1.75rem;
+    block-size: 1.75rem;
+    border-radius: 50%;
+}
+
+.userProfile-name {
+    font: var(--fontBase);
+    color: var(--white);
+}
+
+.userProfile-actions {
+    border: none;
+    background-color: transparent;
+}
+
+.userProfile-actions img {
+    block-size: .7rem;
+    inline-size: .7rem;
+    /* vertical-align: middle; */
+}

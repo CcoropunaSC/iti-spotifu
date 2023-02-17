@@ -1,0 +1,32 @@
+.menuItem {
+    /* border: 1px solid red; */
+}
+
+.menuItem a {
+    font: var(--buttonFont);
+    display: flex;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    /* inline-size: 14rem; */
+    block-size: 2.5rem;
+    /* line-height: 2.5rem; */
+    align-items: center;
+    gap: .5rem
+}
+
+.menuItem i {
+    font-size: 1.5rem;
+}
+
+.menuItem a:hover {
+    text-decoration: none;
+}
+
+.menuItem.is-active a {
+    color: var(--white);
+    box-shadow: inset .25rem 0 0 var(--primary);
+}
+
+.menuItem.is-active .icon-home::before {
+    content: "\e90a";
+}

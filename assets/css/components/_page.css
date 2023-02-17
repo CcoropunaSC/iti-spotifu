@@ -1,0 +1,24 @@
+@import './_playlist-list.css';
+@import './_search.css';
+@import './_navigation.css';
+@import './_user-profile.css';
+@import './_header.css';
+@import './_sticky.css';
+
+.page {
+    /* background-color: var(--primary); */
+    padding-inline: 2rem;
+    padding-block-end: 2rem;
+}
+
+.page-block {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.page .header {
+    margin-block-end: 2rem;
+    margin-inline-start: -1.5rem;
+    margin-inline-end: -1.5rem;
+}

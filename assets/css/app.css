@@ -1,0 +1,34 @@
+@import './fonts/index.css';
+@import './base/index.css';
+@import './components/index.css';
+
+:root {
+    font-size: 14px;
+    --primary: #00B050;
+    --white: #FFFFFF;
+    --gray10: #B3B3B3;
+    --gray20: #737373;
+    --gray30: #282828;
+    --gray40: #181818;
+    --gray50: #121212;
+    --gray60: #000000;
+    --baseFondFamiliy: Avenir, Helvetica, sans-serif;
+    --headline1: bold 2rem/normal var(--baseFondFamiliy);
+    --headline2: bold 1.5rem/1.75rem var(--baseFondFamiliy);
+    --baseFont: normal .875rem/1.375rem var(--baseFondFamiliy);
+    --baseFontBold: bold .875rem/1.375rem var(--baseFondFamiliy);
+    --buttonFont: bold .875rem/1rem var(--baseFondFamiliy);
+    --smallFont: normal 0.65625rem/normal var(--baseFondFamiliy);
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        font-size: 16px
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    :root {
+        font-size: 18px
+    }
+}
