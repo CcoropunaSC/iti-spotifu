@@ -1,5 +1,5 @@
-@import './_playlist-a.css';
-@import './_playlist-b.css';
+@import '_playlist-a.css';
+@import '_playlist-b.css';
 
 .playlistList {
     /* display: flex; */

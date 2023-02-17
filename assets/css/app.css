@@ -1,6 +1,6 @@
-@import './fonts/index.css';
-@import './base/index.css';
-@import './components/index.css';
+@import 'fonts/index.css';
+@import 'base/index.css';
+@import 'components/index.css';
 
 :root {
     font-size: 14px;

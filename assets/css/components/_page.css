@@ -1,9 +1,9 @@
-@import './_playlist-list.css';
-@import './_search.css';
-@import './_navigation.css';
-@import './_user-profile.css';
-@import './_header.css';
-@import './_sticky.css';
+@import '_playlist-list.css';
+@import '_search.css';
+@import '_navigation.css';
+@import '_user-profile.css';
+@import '_header.css';
+@import '_sticky.css';
 
 .page {
     /* background-color: var(--primary); */
